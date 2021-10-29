@@ -2,10 +2,10 @@ package project1;
 
 import java.util.Scanner;
 
-import project1.ver03.PhoneInfo;
-import project1.ver03.PhonebookManager;
+import project1.ver05.PhonebookManager;
+import project1.ver05.DataMenu;
 
-public class PhoneBookVer03 {
+public class PhoneBookVer05 implements DataMenu{
 	
 	public static void main(String[] args) {
 		
@@ -23,19 +23,19 @@ public class PhoneBookVer03 {
 			scanner.nextLine();
 			
 			switch(choice) {
-			case 1:
+			case dataInput:
 				pbm.dataInput();
 				break;
-			case 2:
+			case dataSerch:
 				pbm.dataSearch();
 				break;
-			case 3:
+			case dataDelete:
 				pbm.dataDelete();
 				break;
-			case 4:
+			case dataAllshow:
 				pbm.dataAllshow();
 				break;
-			case 5:
+			case end:
 				System.out.println("프로그램종료");
 				return;
 			}

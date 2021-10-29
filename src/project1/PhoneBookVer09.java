@@ -2,15 +2,15 @@ package project1;
 
 import java.util.Scanner;
 
-import project1.ver03.PhoneInfo;
-import project1.ver03.PhonebookManager;
+import project1.ver09.PhonebookManager;
 
-public class PhoneBookVer03 {
+public class PhoneBookVer09 {
 	
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
 		PhonebookManager pbm = new PhonebookManager();
+		
 		while(true) {
 			System.out.println("선택하세요...");
 			System.out.println("1. 데이터 입력");
